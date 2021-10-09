@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <div class="container">
+    <header>
+        <h1 class="title">Rock Paper Scissors</h1>
+        <h2 class="title">and</h2>
+        <h2 class="title">many more!</h2>
+    </header>
+    
+    <div class="content">
+        <div id="upper-content">
+            <div class="bars">
+                <div id="player-health">
+                    <h3>You</h3>
+                    <div class="health">5</div>
+                </div>
+
+                <div id="win-lose">Round 1</div>
+
+                <div id="computer-health">
+                    <h3>Computer</h3>
+                    <div class="health">5</div>
+                </div>
+
+            </div>
+            <div id="display">
+                <p id="display-text">Start by choosing your weapon: </p>
+            </div>
+        </div>
+
+        <div id="lower-content">
+            <div class="buttons">
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
     <script src="rockpaperscissors.js"></script>
+    <footer></footer>
 </body>
 </html>
