@@ -28,6 +28,8 @@ h1, h2, h3 {
 
 h1 {
     font-size: 64px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -101,7 +103,7 @@ h3 {
 
 #display {
     background-color: #fca311;
-    margin-top: 40px;
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -121,6 +123,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 80px;
     gap: 5%;
 }
 
